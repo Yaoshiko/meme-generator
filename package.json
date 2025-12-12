@@ -1,0 +1,13 @@
+{
+  "name": "meme-generator",
+  "version": "1.0.0",
+  "description": "A MemeDroid extractor. Full credits to https://github.com/techytushar/random-memer",
+  "scripts": {
+    "dev": "npx wrangler dev",
+    "deploy": "npx wrangler publish"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20251212.0",
+    "wrangler": "^4.54.0"
+  }
+}
